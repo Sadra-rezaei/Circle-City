@@ -6,14 +6,13 @@ for i in n:
     if i == 0:
         if flag == 1:
             print("YES")
-            break
+            exit()
         else:
             flag = 0
     elif i == 1:
         if flag == 0:
             print("YES")
-            break
+            exit()
         else:
             flag = 1
-if flag == 2:
-    print("NO")
+print("NO")
